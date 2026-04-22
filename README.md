@@ -16,6 +16,7 @@ Here is a list of things I learned from this project:
 Assembly: 
 - Different screw uses (M3 Machine Vs Thread forming, M2.6 for circuit boards)
 - Onshape Assembly
+- Claw Machine/Linkage style claw mechanism
 - Tolerances
   
 Hardware:
@@ -41,7 +42,8 @@ Here is a list of _problems_ I ran into for this project:
 - Chance of the first MG996R not being able to hold up
 - Trying to install the XIAO footprint (wth is git submodules and somethingEDA)
 - Trying to upload the PCB to JLCPCB (literally only the holes appeared for some reason)
-- AliExpress having cheap items with shipping costs being like 10x their actual price
+- AliExpress shipping lowkey being the product
+- AliExpress being a master of manipulation (they removed a $20 off deal the moment I hit buy)
 - One of the only good laser modules is $20 (wth)
 - Slack, Fallout issues (why is fallout using a slack I never technically created?)
 - Doing research at night, thinking it'd only take me a few minutes but taking me 1-2 hours I could've tracked
