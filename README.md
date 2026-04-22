@@ -79,6 +79,7 @@ The OrcaClaw controller schematic is just the PCB schematic.
 <img width="926" height="740" alt="OrcaClawControllerSchematic" src="https://github.com/user-attachments/assets/1051488c-06b9-4eeb-921f-3b96916cee1c" />
 
 **How to use:** Attach arm and backpack straps with the clips onto the backplate. Wear it like a backpack. Congratulations! The OrcaClaw is now mounted on your back! 
+
 On the controller, there is two buttons. One of them allow for movement control. By pressing it down and moving your arm accordingly, the accelerometer will translate that movement into the servo movement. The other button activates the laser.
 
 The absolute MESS of a cad(LISTEN. THIS THE FIRST TIME I'M ACTUALLY DOING MODELING. I DIDN'T REALIZE IT WOULD LOOK THIS UNORGANIZED. PLEASE SPARE ME):
