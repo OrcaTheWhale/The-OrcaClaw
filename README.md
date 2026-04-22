@@ -1,7 +1,7 @@
 # The-OrcaClaw
 Resembling (sort of) Victor's Hexclaw from League of Legends/Arcane, the OrcaClaw is a powerful(weak) arm that can be controlled remotely, and has the ability to grab and point using a laser!
 
-This is my first ever project outside of tinkering with a breadboard and sensors. I've never modeled, made a pcb, or know a lot about assembly(hardware components, screw types). However, after a lot of work and hours done, I was able learn a lot, and also was able to produce this project, the OrcaClaw!
+This is my first ever project outside of tinkering with a breadboard and sensors. I've never modeled, made a pcb, or know a lot about assembly(hardware components, screw types). However, after a lot of work and hours done, I was able to learn a lot, and also was able to produce this project, the OrcaClaw!
 
 **What makes this unique**: You will never see this in the real world(cause it's kinda useless), that's just how unique it is! Resembling an Hexclaw and an Orca, the OrcaClaw is able to be able to grab _some_ items in your daily life! Whether you need to hold on to an empty soda can(for some reason), or claw menacingly at someone you don't like, the OrcaClaw, _in addition_, allows you to point at things using it's built in laser! Just like the Hexclaw, it's dangerous(if you shine it in someone's eyes, don't do that), and can ward off people who don't like light(like vampires)!
 
