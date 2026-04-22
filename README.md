@@ -1,6 +1,53 @@
 # The-OrcaClaw
 Resembling (sort of) Victor's Hexclaw from League of Legends/Arcane, the OrcaClaw is a powerful(weak) arm that can be controlled remotely, and has the ability to grab and point using a laser!
 
+This is my first ever project outside of tinkering with a breadboard and sensors. I've never modeled, made a pcb, or know a lot about assembly(hardware components, screw types). However, after a lot of work and hours done, I was able learn a lot, and also was able to produce this project, the OrcaClaw!
+
+**What makes this unique**: You will never see this in the real world(cause it's kinda useless), that's just how unique it is! Resembling an Hexclaw and an Orca, the OrcaClaw is able to be able to grab _some_ items in your daily life! Whether you need to hold on to an empty soda can(for some reason), or claw menacingly at someone you don't like, the OrcaClaw, _in addition_, allows you to point at things using it's built in laser! Just like the Hexclaw, it's dangerous(if you shine it in someone's eyes, don't do that), and can ward off people who don't like light(like vampires)!
+
+**Why I made this project**: Originally, I was going to create just a robot arm that is able to write something, with remote capabilities, like either being remote controlled or master-slave. The reason the idea pivoted was because after joining the Fallout kickoff call, I was more inspired to create something not so boring and unoriginal. An arm seemed like a perfect guide in my opinion; I will be able to make something move(neurons firing!), and learn modeling, creating PCB's, and wireless communication. I was still able to learn everything; but now the idea is much cooler! 
+
+Here is a list of things I learned from this project:
+
+**Modeling**
+
+**PCB Creation**
+
+Assembly: 
+- Different screw uses (M3 Machine Vs Thread forming, M2.6 for circuit boards)
+- Onshape Assembly
+- Tolerances
+  
+Hardware:
+- Voltage step-down (Buck Converter)
+- Wary of current draw (Increasing wire thickness and AWG sizes)
+- Wary of current draw x2 (Capacitors for MG996R Servos)
+- MOSFET gate
+
+And more!
+
+Here is a list of _problems_ I ran into for this project:
+- WHY IS EVERYTHING EXPENSIVE
+- Batteries < $20 having the battery life of a potato
+- One of the batteries I bought was fine then I realized later the turtle from the tortoise and the hare race was the one delivering the product
+- Buying components irl to accomodate in the design, and then realising there were cheaper options so now I have to buy those ones to stick to the BOM and source material
+- Errors in OnShape
+- Extrude? Hello? It's a closed area?
+- Had to restart early on, not too bad though
+- Screws not screwing (There's two types of screws, machine screws and thread-forming???)
+- Tolerances not tolerating
+- Logic errors
+- Having to sacrifice a lot of rotation degrees
+- Chance of the first MG996R not being able to hold up
+- Trying to install the XIAO footprint (wth is git submodules and somethingEDA)
+- Trying to upload the PCB to JLCPCB (literally only the holes appeared for some reason)
+- AliExpress having cheap items with shipping costs being like 10x their actual price
+- One of the only good laser modules is $20 (wth)
+- Slack, Fallout issues (why is fallout using a slack I never technically created?)
+- Doing research at night, thinking it'd only take me a few minutes but taking me 1-2 hours I could've tracked
+- AAAAAHHH
+
+
 OrcaClaw 3D Model:
 <img width="622" height="521" alt="image" src="https://github.com/user-attachments/assets/dbcac449-9fe1-40d9-a951-2ceeaea3f03e" />
 <img width="668" height="698" alt="image" src="https://github.com/user-attachments/assets/f82676ca-1439-454b-a341-600e9959188d" />
@@ -20,4 +67,4 @@ OrcaClaw PCB:
 OrcaClaw Controller PCB:
 <img width="747" height="393" alt="image" src="https://github.com/user-attachments/assets/566920ae-2fcd-4147-8d87-605b8b50dac6" />
 
-
+**How to use:** On the controller, there is two buttons. One of them allow for movement control. By pressing it down and moving your arm accordingly, the accelerometer will translate that movement into the servo movement. The other button activates the laser.
