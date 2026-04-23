@@ -1,0 +1,101 @@
+#include <Arduino.h>
+#include <esp_now.h>
+#include <WiFi.h>
+#include <Wire.h>
+
+const int MPU_ADDR=0x69; // I2C address of the MPU-6050
+
+int16_t accel_x, accel_y;
+
+
+const int control = 2;
+const int claw = 3;
+const int sda = 6;
+const int scl = 7;
+
+
+bool bounced;
+
+
+
+uint8_t receiverMAC[] = {0xA4, 0xF0, 0x0F, 0x61, 0xF4, 0x10}; // YOUR OTHER ESP WIFI CODE HERE
+
+typedef struct {
+  int x;
+  int y;
+  int homex;
+  int homey;
+  bool claw;
+} Payload;
+Payload data;
+
+void onSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
+  Serial.print("Send Status: ");
+  Serial.println(status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail");
+}
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+  //pinMode(led, OUTPUT);
+  delay(1000);
+  WiFi.mode(WIFI_STA);
+  Serial.println(WiFi.macAddress());
+  if (esp_now_init() != ESP_OK) {
+    Serial.println("Error initializing ESP-NOW");
+    return;
+  }
+  esp_now_register_send_cb(onSent);
+  esp_now_peer_info_t peerInfo = {};
+  memcpy(peerInfo.peer_addr, receiverMAC, 6);
+  peerInfo.channel = 0;
+  peerInfo.encrypt = false;
+
+  esp_now_add_peer(&peerInfo);
+
+  //reset position and jitter to allow capacitors to do their thing
+  //claw position = false
+
+  //claw position: false = closed, true = open
+
+  Wire.begin();
+  Wire.beginTransmission(MPU_ADDR);
+  Wire.write(0x6B); // PWR_MGMT_1 register
+  Wire.write(0);    // set to zero (wakes up the MPU-605
+  Wire.endTransmission(true);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  //data.led = random(0, 3);
+  Wire.beginTransmission(MPU_ADDR);
+  Wire.write(0x3B); // starting with register 0x3B (ACCEL_XOUT_H)
+  Wire.endTransmission(false);
+  Wire.requestFrom(MPU_ADDR, 4, true); // request a total of 4 registers
+  if(Wire.available() >= 4) {
+    accel_x = Wire.read() << 8 | Wire.read();
+    accel_y = Wire.read() << 8 | Wire.read();
+  }
+
+// detect if button is pressed, if not ignore
+// data.x = gy-521 x
+// data.y = gy-521 y
+// if claw button pressed, check if true/false then flip value and send
+  data.x = accel_x;
+  data.y = accel_y;
+
+  if (digitalRead(control) == HIGH && !bounced) {
+    data.homex = accel_x;
+    data.homey = accel_y;
+    bounced = true;
+  } else if (digitalRead(control) == LOW) {
+    bounced = false;
+  }
+
+  if (digitalRead(claw) == HIGH) {
+    data.claw = !data.claw;
+  }
+  esp_err_t result = esp_now_send(receiverMAC, (uint8_t *)&data, sizeof(data));
+  delay(1000);
+}
