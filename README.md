@@ -86,6 +86,9 @@ The absolute MESS of a cad(LISTEN. THIS THE FIRST TIME I'M ACTUALLY DOING MODELI
 https://cad.onshape.com/documents/d7ad806e815c1aad37a0e64a/w/e4d9f00fe60cfe8595f9785c/e/b1601408fc0aed2b47a9de74?renderMode=0&uiState=69e82076497156923c10f2e7 
 
 You may find the **BOM** here: https://github.com/OrcaTheWhale/The-OrcaClaw/blob/d58308c58e4bb3730a3b75af7c206a2e41ff7d3b/Bill%20of%20Materials.csv
+
 **HEADS UP!** The BOM assumes you have a soldering iron. The prices are in CAD(Canadian money, not modeling software you nerds), and shipping prices will vary from region.
 The printing legion shipping cost also may vary.
+
+The firmware is also set in platformio! If you are using Arduino IDE, please feel free to do so.
 
