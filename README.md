@@ -8,6 +8,9 @@ This is my first ever project outside of tinkering with a breadboard and sensors
 
 **Why I made this project**: Originally, I was going to create just a robot arm that is able to write something, with remote capabilities, like either being remote controlled or master-slave. The reason the idea pivoted was because after joining the Fallout kickoff call, I was more inspired to create something not so boring and unoriginal. An arm seemed like a perfect guide in my opinion; I will be able to make something move(neurons firing!), and learn modeling, creating PCB's, and wireless communication. I was still able to learn everything; but now the idea is much cooler! 
 
+<img width="1398" height="2000" alt="The OrcaClaw" src="https://github.com/user-attachments/assets/2f53a059-32ed-4c61-a07e-aa92c4aa933f" />
+
+
 Here is a list of things I learned from this project:
 
 **Modeling**
