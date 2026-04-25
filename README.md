@@ -52,6 +52,10 @@ Here is a list of _problems_ I ran into for this project:
 - Slack, Fallout issues (why is fallout using a slack I never technically created?)
 - Doing research at night, thinking it'd only take me a few minutes but taking me 1-2 hours I could've tracked
 - Github uploading the individual files instead of the folder
+- Realizing I had put two buttons on the controller pcb when I need 3 (control, claw, and laser)
+- Zine page loocking ahh
+- Being ghosted in slack :sob: not that much tho shout out Tirthak and the gang
+- 
 - AAAAAHHH
 
 
