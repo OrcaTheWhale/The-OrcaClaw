@@ -95,7 +95,7 @@ On the controller, there is two buttons. One of them allow for movement control.
 
 The other button activates the laser. Please be careful and don't shine it in someone's eyes, it will be harmful.
 
-**Guide: **
+**Guide:**
 Once accepted, a more in depth guide will be posted. For now:
 
 Follow OnShape document for where parts go! Almost all of the parts are unique in some way; so it won't be too hard to distinguish parts in assembly.
