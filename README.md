@@ -95,6 +95,13 @@ On the controller, there is two buttons. One of them allow for movement control.
 
 The other button activates the laser. Please be careful and don't shine it in someone's eyes, it will be harmful.
 
+Guide: 
+Once accepted, a more in depth guide will be posted. For now:
+
+Follow OnShape document for where parts go! Almost all of the parts are unique in some way; so it won't be too hard to distinguish parts in assembly.
+The longer M3 thread-forming screws (4 of them) goes from the backplate --> the arm segment connecting to it. 
+Everything else uses the majority M3 thread-forming screws listed in the BOM.
+
 The absolute MESS of a cad(LISTEN. THIS THE FIRST TIME I'M ACTUALLY DOING MODELING. I DIDN'T REALIZE IT WOULD LOOK THIS UNORGANIZED. PLEASE SPARE ME):
 https://cad.onshape.com/documents/d7ad806e815c1aad37a0e64a/w/e4d9f00fe60cfe8595f9785c/e/b1601408fc0aed2b47a9de74?renderMode=0&uiState=69e82076497156923c10f2e7 
 
