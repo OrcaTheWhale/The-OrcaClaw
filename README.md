@@ -91,7 +91,9 @@ The OrcaClaw controller schematic is just the PCB schematic with a extra battery
 
 **How to use:** Attach arm and backpack straps with the clips onto the backplate. Wear it like a backpack. Congratulations! The OrcaClaw is now mounted on your back! 
 
-On the controller, there is two buttons. One of them allow for movement control. By pressing it down and moving your arm accordingly, the accelerometer will translate that movement into the servo movement. The other button activates the claw to open/close.
+On the controller, there is two buttons. One of them allow for movement control. By pressing it down and moving your arm accordingly, the accelerometer will translate that movement into the servo movement. If you move your arm left or right, it'll follow left or right. If you move your arm up or down, it'll follow your arm movement. To close/open the claw, turn the controller on the Z axis.
+
+The other button activates the laser. Please be careful and don't shine it in someone's eyes, it will be harmful.
 
 The absolute MESS of a cad(LISTEN. THIS THE FIRST TIME I'M ACTUALLY DOING MODELING. I DIDN'T REALIZE IT WOULD LOOK THIS UNORGANIZED. PLEASE SPARE ME):
 https://cad.onshape.com/documents/d7ad806e815c1aad37a0e64a/w/e4d9f00fe60cfe8595f9785c/e/b1601408fc0aed2b47a9de74?renderMode=0&uiState=69e82076497156923c10f2e7 
