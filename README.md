@@ -109,6 +109,8 @@ https://cad.onshape.com/documents/d7ad806e815c1aad37a0e64a/w/e4d9f00fe60cfe8595f
 
 You may find the **BOM** here: https://github.com/OrcaTheWhale/The-OrcaClaw/blob/d58308c58e4bb3730a3b75af7c206a2e41ff7d3b/Bill%20of%20Materials.csv
 
+You may find the **PCB Components Guide** here: https://github.com/OrcaTheWhale/The-OrcaClaw/blob/main/PCBFiles/PCB%20Components%20Guide.csv
+
 **HEADS UP!** The BOM assumes you have a soldering iron. The prices are in CAD(Canadian money, not modeling software you nerds), and shipping prices will vary from region.
 The printing legion shipping cost also may vary.
 
