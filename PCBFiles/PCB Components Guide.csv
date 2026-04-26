@@ -1,0 +1,11 @@
+Component Name,REF on PCB
+OrcaClaw PCB,
+1x03 Pin Headers 2.54mm Pitch,"J1, J2, J3"
+470uF Capacitors,"serv1C2, serv2C3, serv3C4"
+1000uF Capacitor,C1
+Screw Terminal 5.08mm Pitch,"J4, LaserModule J5"
+MOSFET,Q1
+OrcaClaw Controller PCB,
+1x04 Pin Headers 2.54mm Pitch,J2
+1x02 Pin Headers 2.00mm Pitch,J1
+Push Buttons,"SW1, SW2"
