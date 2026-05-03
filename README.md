@@ -89,7 +89,9 @@ The OrcaClaw controller schematic is just the PCB schematic with a extra battery
 
 
 
-**How to use:** Attach arm and backpack straps with the clips onto the backplate. Wear it like a backpack. Congratulations! The OrcaClaw is now mounted on your back! 
+**How to use:** 
+
+Attach arm and backpack straps with the clips onto the backplate. Wear it like a backpack. Congratulations! The OrcaClaw is now mounted on your back! 
 
 On the controller, there is two buttons. One of them allow for movement control. By pressing it down and moving your arm accordingly, the accelerometer will translate that movement into the servo movement. If you move your arm left or right, it'll follow left or right. If you move your arm up or down, it'll follow your arm movement. To close/open the claw, turn the controller on the Z axis.
 
@@ -98,12 +100,20 @@ The other button activates the laser. Please be careful and don't shine it in so
 **Guide:**
 Once accepted, a more in depth guide will be posted. For now:
 
+
+
 Follow OnShape document for where parts go! Almost all of the parts are unique in some way; so it won't be too hard to distinguish parts in assembly.
 The longer M3 thread-forming screws (4 of them) goes from the backplate --> the arm segment connecting to it. 
 Everything else uses the majority M3 thread-forming screws listed in the BOM.
 The components relating to the claw use the M3 machine screws with nuts to keep them in place. Do not tighten nuts to the fullest, let parts be able to rotate.
 
+Mount components to their respective places first, and then connect the arm pieces together.
+Battery: There will be a rectangle piece which you slide in after putting the battery in its case, to keep it in place.
+Same with the laser, but it will be a round piece.
+
 The PCB's and other boards use the M2.6 screws through the mounting holes.
+
+
 
 The absolute MESS of a cad(LISTEN. THIS THE FIRST TIME I'M ACTUALLY DOING MODELING. I DIDN'T REALIZE IT WOULD LOOK THIS UNORGANIZED. PLEASE SPARE ME):
 https://cad.onshape.com/documents/d7ad806e815c1aad37a0e64a/w/e4d9f00fe60cfe8595f9785c/e/b1601408fc0aed2b47a9de74?renderMode=0&uiState=69e82076497156923c10f2e7 
@@ -115,7 +125,7 @@ You may find the **PCB Components Guide** here: https://github.com/OrcaTheWhale/
 **HEADS UP!** The BOM assumes you have a soldering iron. The prices are in CAD(Canadian money, not modeling software you nerds), and shipping prices will vary from region.
 The printing legion shipping cost also may vary.
 
-Buck Converter MAY NOT BE ACCURATE! Listing says 2 different dimensions; when I recieve it I will update the model.
+Buck Converter MAY NOT BE ACCURATE! Listing says 2 different dimensions; when I recieve it I will update the model. It also may be M3 mounting holes, and M2.6. However, the parts in the BOM have enough thread-forming screws to use M3 instead. Warning: Pilot hole will be a tight fit.
 
 The firmware is also set in platformio! If you are using Arduino IDE, please feel free to do so.
 
